@@ -6,9 +6,9 @@ import config from '@/config'
 // let base1 = 'http://YYT_SVC_IP:YYT_SVC_PORT';
 // let base2 = 'http://YYT_SVC_IP:YYT_CARD_SVC_PORT';
 
- let base1 = 'http://172.16.0.13:31421';
- let base2 = 'http://172.16.0.13:31422';
- let base3 =  'http://172.16.0.13:38080';
+ let base1 = 'http://XXX.XX.X.XX:XXXX';
+ let base2 = 'http://XXX.XX.X.XX:XXXX';
+ let base3 =  'http://XXX.XX.X.XX:XXXX';
 //刷新token
 export const getRefreshToken = params => { return instanceBase1.post(`/card/oauth/refresh`, params).then(res => res.data); };
 //登录
